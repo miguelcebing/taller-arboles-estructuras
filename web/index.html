@@ -1692,7 +1692,10 @@
           return;
         }
         const main = event.target.closest("[data-key]");
-        if (main) selectNode(main.dataset.key);
+        if (main) {
+          const stay = state.activeTab === "gestion";
+          selectNode(main.dataset.key, stay ? {} : { tab: "ficha" });
+        }
       });
 
       $("#tree-filter").addEventListener("input", (event) => {

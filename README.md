@@ -74,6 +74,8 @@ docs/CASE_STUDY.md          decisión del caso y datos
 docs/DESIGN.md              clases, invariantes, API y plan de diseño
 docs/ANALYSIS.md            análisis profundo y resultados reales
 bench/results.md            salida de la última corrida del benchmark
+AGENT.md                    instrucciones del taller
+skills/                     las cinco skills de referencia
 ```
 
 ## Documentación
